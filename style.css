@@ -1,0 +1,58 @@
+/* Apparence générale de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 30px;
+}
+
+/* Le titre */
+h1 {
+    color: #333;
+}
+
+/* Le champ de saisie */
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Le bouton Ajouter */
+button {
+    padding: 10px 15px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* La liste */
+ul {
+    width: 100%;
+    max-width: 500px;
+    padding: 0;
+    list-style: none;
+}
+
+/* Chaque tâche */
+li {
+    background-color: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Une tâche terminée */
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
