@@ -42,4 +42,11 @@ addBtn.addEventListener("click", () => {
 
     // Vider le champ
     taskInput.value = "";
+
+    //Ajouter avec la touche entrée
+    taskInput.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+            addBtn.click();
+        }
+    });
 });
